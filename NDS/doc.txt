@@ -1,0 +1,9 @@
+DataBase
+--> (数据供应商) 
+	-->update region 
+		-->building block
+			-->name building block
+			-->routing building block
+			-->poi building block
+
+gateways(region的临界点)
