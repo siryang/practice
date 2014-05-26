@@ -3,7 +3,7 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: Blogs
+title: Hexo
 subtitle:
 description:
 author: John Doe
@@ -12,7 +12,7 @@ language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://siryang.github.io
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -90,6 +90,4 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repository: git@github.com:siryang/siryang.github.io.git
-  branch: master
+  type:
