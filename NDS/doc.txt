@@ -7,3 +7,7 @@ DataBase
 			-->poi building block
 
 gateways(region的临界点)
+
+NDS-Grid
+Zoom个数 = 32 // [0, 31]
+Grid Width = 90度 / (2^ZoomLevel)
