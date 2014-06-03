@@ -14,3 +14,11 @@ tags:
 WEB
 Android
 IOS
+
+
+Don't just get involved
+Fight for your seat at the table 
+Better yet, fight for a seat at the header of the table
+-Obama，Columbia University 2012
+
+目标：
