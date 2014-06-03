@@ -1,4 +1,4 @@
-﻿title: 历程
+title: 历程
 date: 2014-05-26 20:02:52
 categories:
 - Trivial
@@ -16,9 +16,14 @@ Android
 IOS
 
 
+---------------------------------------
+{% blockquote Obama, Columbia University 2012 %}
+
 Don't just get involved
 Fight for your seat at the table 
 Better yet, fight for a seat at the header of the table
--Obama，Columbia University 2012
 
+{% endblockquote %}
+
+---------------------------------------
 目标：
