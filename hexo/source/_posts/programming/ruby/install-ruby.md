@@ -67,13 +67,16 @@ gem install rails
 	重新`make & make install`，编译安装完成
 
 
+--------------------------------
 ##Rails
 `gem install rails`
 
 
+--------------------------------
 ##node.js
 [Node.js](http://nodejs.org/dist/v0.10.28/node-v0.10.28-linux-x64.tar.gz):http://nodejs.org/download/
 
+--------------------------------
 ##Git
 `yum install git`
 

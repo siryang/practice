@@ -14,7 +14,9 @@ for w in words[1:-1]:
      print w, len(w),
 myArray = range(2,5)
 
-myArray = [i for i in range(2,5)]
+myArray = [(x,y) for x in [1,2] for y in [3,4]]
+# 组合：[(1,3),(1,4),(2,3),(2,4)]
+
 ```
 -------
 ##Interface
@@ -34,6 +36,13 @@ myArray = [i for i in range(2,5)]
     *   Sequences
     *   Sets
     *   Dictionaries
+
+###String
+
+###File
+```python
+os.rename(path1, path2)
+```
 
 ###Inheritance
 ```python
@@ -67,6 +76,8 @@ def main():
     *   apply:apply(function, args) == function(args)
     *   map: 同map
     *   imap: 
+*   经验
+    *   可以使用`multiprocessing.cpu_cpunt()`获取CPU个数，由此设置进程池拥有进程数
 
 ```python
 import multiprocessing
@@ -82,6 +93,7 @@ if __name__ == '__main__':
         p = multiprocessing.Process(target=worker, args=(i,))
         jobs.append(p)
         p.start()
+    p = multiprocessing.Pool(processes=multiprocessing.cpu_count())
 ```
 
 ---------

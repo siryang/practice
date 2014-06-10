@@ -32,8 +32,11 @@ tags:
 
 --------------------------
 ##动态网页
-###CGI
-###Fast CGI
+###CGI & Fast CGI
+CGI和FCGI和语言无关，WEB服务器通过CGI/FCGI调用本地程序并获取返回结果
+CGI的生命周期是一次调用时间
+FCGI在CGI基础上做了优化，启动多个CGI解释器供WEB服务器连接（资源池）
+###Nginx
 ###ASP
 微软公司开发的代替CGI脚本程序的一种应用
 ###PHP
