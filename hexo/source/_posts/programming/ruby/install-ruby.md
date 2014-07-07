@@ -80,3 +80,6 @@ gem install rails
 ##Git
 `yum install git`
 
+##IRB--Ruby Shell
+问题：irb中退格键和方向键乱码
+解决：gem install rb-readline

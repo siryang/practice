@@ -15,10 +15,13 @@ tags:
 
 #MarkDown
 ##不错的协作工具
-*[mahua:在线编辑markdown文档的编辑器](http://mahua.jser.me/) 
-
+* [mahua:在线编辑markdown文档的编辑器](http://mahua.jser.me/) 
+* linux shell下查看markdown文件 [工具](http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip)
 {% img [class names] /images/image_test.jpg 392 220 "test images"%}
 
+##目录
+[CMD][1]的Markdown模板支持自动生成目录，
+Github貌似不支持，不过可以添加文档内引用，如[目录](##目录)
 
 
 爱好篮球的亲们
@@ -34,16 +37,10 @@ tags:
 
 
 {% img [class names] /images/mapbar_basketball.jpg 790 484 "test images"%}
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 群：210193978
 
 
 
-
-		0, 0,  0,  0, //0-3
-		3,	3, // 4 - 5
-		5,  5, // 6 - 7
-		7,  7,	7, // 8 - 10
-		10,	10, // 11 - 12
-		12, 12 // 13 - 14
-
-
+[1]:https://www.zybuluo.com/mdeditor/note/16681
