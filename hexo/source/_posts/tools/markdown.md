@@ -1,4 +1,12 @@
+title: Markdown
+categories:
+- tools
+tags: 
+- Markdown
+---
+
 # Markdown
+
 ---
 
 ## Tools for Markdown
@@ -9,4 +17,5 @@
 cd /usr/local/bin
 ln -s Markdown.pl ./Markdown
 ```
+
 

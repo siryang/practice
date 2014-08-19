@@ -10,6 +10,8 @@ Welcome to [Hexo](http://hexo.io/)! This is your very first post. Check [documen
 $ hexo new "My New Post"
 ```
 
+EU and Swiss Safe Harbor
+
 More info: [Writing](http://hexo.io/docs/writing.html)
 
 ### Run server

@@ -81,11 +81,11 @@ disqus_shortname:
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
 
-#theme: landscape
-#exclude_generator:
-
-theme: jacman
+theme: landscape
 exclude_generator:
+
+#theme: jacman
+#exclude_generator:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
