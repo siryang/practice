@@ -1,0 +1,29 @@
+学习方式:
+	1.如何体会python的乐趣
+	2.python在实际生产中的用途
+		一些名企的实习生会从python做起
+		python可以用来做什么
+		
+		感觉单纯的教肯定没什么用，要发现每个人工作上能用到python的地方，然后再教。
+		
+
+学习过程:
+	1.安装
+	2.命令行
+	3.书写简单程序并执行
+
+学习工具:
+	1.python IDLE
+	2.pyscript
+推荐资料:
+
+入门
+http://www.codecademy.com/
+http://ishare.iask.sina.com.cn/f/4377791.html?sudaref=www.google.com.tw&retcode=0
+
+python中文文档
+http://docspy3zh.readthedocs.org/en/latest/#
+
+可以用来参考的
+http://woodpecker.org.cn/abyteofpython_cn/chinese/
+http://www.czug.org/python/tutorial/ 

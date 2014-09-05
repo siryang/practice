@@ -1,0 +1,266 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sm",
+				"smallIdx"
+			],
+			[
+				"cla",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"l",
+				"lon"
+			],
+			[
+				"get",
+				"getGridNum"
+			],
+			[
+				"m_",
+				"m_smallGridSize"
+			],
+			[
+				"m_gr",
+				"m_bigGridSize"
+			],
+			[
+				"id",
+				"id2Index"
+			],
+			[
+				"ind",
+				"index2Id"
+			],
+			[
+				"gri",
+				"gridBBox"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"gr",
+				"gridBBox"
+			],
+			[
+				"b",
+				"bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"1029-984",
+			"2940 - 2883",
+			"19 * 15",
+			"0x0b62",
+			"0x03e3",
+			"(0x03e3 << 16) | (0x0b62)",
+			"(0x03e3 << 16) | (0x0b64)",
+			"0x03e3 << 16 | 0x0b64",
+			"hex(65211234)",
+			"hex((32 << 16) | 10)",
+			"hex(32)",
+			"(32 << 16) | 10",
+			"32 << 16",
+			"print ((1 << 16))",
+			"print ((1 << 16) | 1)",
+			"print (1 << 16) | 1",
+			"print (1 << 16)",
+			"print 1 << 16",
+			"a",
+			"a=[1,2,3,4]",
+			"[0,1][1>1]",
+			"1=1? 0: 1",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"print(\"hi\")",
+			"os.getcwd()",
+			"import os",
+			"help()",
+			"help",
+			"print \"hi\"",
+			"python"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/proj/navi_core/examples/glmap/data/map3dv4/map4_style_sheet.json",
+		"/C/Users/yangdi.MAPBAR0/Desktop/day_scheduler.log",
+		"/I/proj/eclipse/RubyHelloWorld/sublime_test.py",
+		"/F/proj/evfc_3d_13spring/tools/decode_evfc_gridid.py",
+		"/I/proj/eclipse/RubyHelloWorld/hello.rb",
+		"/F/sir_yang_project/algorithm-analysis-siryang/tools/sublime/sublime_brief.txt",
+		"/F/sir_yang_project/algorithm-analysis-siryang/tools/awk/awk.txt",
+		"/C/Users/yangdi.MAPBAR0/Desktop/windows.docx",
+		"/C/Users/yangdi.MAPBAR0/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/YANGDI~1.MAP/AppData/Local/Temp/Rar$DR88.720/sublime-tomorrow-theme-master/README.md",
+		"/I/proj/eclipse/RubyHelloWorld/[dir",
+		"/D/personal_program/python_2.7_w32/Lib/string.py",
+		"/C/Users/yangdi.MAPBAR0/Desktop/编辑1",
+		"/F/sir_yang_project/algorithm-analysis-siryang/tools/010Editor/type_3byte.bt",
+		"/F/proj/qite/packet/build_res.pl",
+		"/F/proj/navi_core/jnavicore/jni/Android.mk",
+		"/E/naviinfo/13spring_evfc/四维/world_new.fvf",
+		"/E/naviinfo/13spring_evfc/四维/world.fvf",
+		"/C/Users/yangdi.MAPBAR0/Desktop/Sublime中文"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print",
+			"Sublime",
+			"Sublime破解"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 245.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "siryang.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

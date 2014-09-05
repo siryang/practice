@@ -1,0 +1,17 @@
+Python操作MS Office文件
+pywin32 (sourceforge)
+
+import win32com.client
+
+## create a dispatch based COM object. call Word.Application
+dispatch = win32com.client.Dispatch("Word.Application")
+## 打开的窗口是否在前段运行
+dispatch.Visible=True/False 
+doc = dispatch.Documents.Open(os.getcwd() + "\\pywin32_test.docx")
+#输出文本内容
+print doc.Content.Text
+#修改文本内容
+doc.Content.Text = ""
+doc.SaveAs("filename", 8)
+doc.close()
+dispatch.Quit()

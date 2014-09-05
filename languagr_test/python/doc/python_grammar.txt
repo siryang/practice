@@ -1,0 +1,5 @@
+python怎么把0xff0c输出为汉字
+>>> bytes = [0xff0c, 0xff00]
+>>> "".join(map(chr, bytes))
+'，\uff00'
+----
