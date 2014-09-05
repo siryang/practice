@@ -1,0 +1,6 @@
+ruby-pinyin:
+	https://github.com/janx/ruby-pinyin
+
+Net
+
+ 

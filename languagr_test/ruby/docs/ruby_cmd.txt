@@ -1,0 +1,1 @@
+irb命令可以打开ruby的交互shell

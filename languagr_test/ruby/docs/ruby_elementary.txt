@@ -1,0 +1,30 @@
+##Dir.pwd, Dir.getcwd, Dir.chdir
+##File.rename
+
+##shell command
+	`dir`.encoding("utf-8")
+
+##exception
+	begin
+	rescue
+	end
+
+##Array, Hash
+
+Input/Output
+
+变量定义
+	局部变量 var
+	全局变量 $var
+	成员变量@var
+	
+	
+class child < parent
+super(varlist)
+
+===
+	捕获系统信号
+	trap("INT"){s.shutdown}
+	trap 'INT' do server.shutdown end
+===
+
