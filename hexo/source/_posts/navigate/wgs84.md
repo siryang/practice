@@ -11,10 +11,10 @@ tags:
 所有的电子地图和所有的导航设备，都需要加入国家保密插件。这样GPS导航仪和电子地图就能完全匹配，导航仪仍能正常工作。
 
 
-
+``` c
 < %codeblock lang:cpp GCJ-02坐标和百度BD-09坐标转换 http://blog.woodbunny.com/post-68.html %>
 #include <math.h>  
-  
+
 const double x_pi = 3.14159265358979324 * 3000.0 / 180.0;  
   
 void bd_encrypt(double gg_lat, double gg_lon, double &bd_lat, double &bd_lon)  
