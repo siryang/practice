@@ -4,6 +4,8 @@
 ### 后台启动
 无窗口启动VirtualBox虚拟机`VBoxManage.exe startvm {vmname} --type headless`
 
+### 修改硬盘vdi大小
+VBoxManage modifyhd YOUR_HARD_DISK.vdi --resize SIZE_IN_MB  
 
 ### 网络连接
 
