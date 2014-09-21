@@ -1,0 +1,21 @@
+embed python in c
+
+Py_xxxFilexxx(File* fp, ...)
+
+带Simple的是对应的不带的函数的便利版本,仅执行main
+
+使用fopen("xxx", "r")生成的fp传入在windows下有问题，暂时没有在linux上尝试
+可以使用
+	PyObject* pyFileObject = PyFile_FromString("../code/script/python_c.py", "r");
+	FILE* fp = PyFile_AsFile(pyFileObject);
+
+	
+PyRun_Interactive
+	使用交互模式
+	fp被当做交互设备Handle，理论上应该是stdin，但是尝试传递其它文件句柄也可以使用交互，但是会破坏文件句柄内容，没法继续使用这个文件句柄。
+	而且使用exit()后程序退出，但是可以使用Ctrl-C退出。
+
+PyRun_
+	
+PyRun_AnyFile(fp, fname)
+	自动检测fp类型，确定使用交互模式还是直接执行脚本

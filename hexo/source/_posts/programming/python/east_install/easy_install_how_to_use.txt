@@ -1,0 +1,12 @@
+1.下载ez_setup.py   http://peak.telecommunity.com/dist/ez_setup.py
+2.在python安装目录下，运行python ez_setup.py
+	会创建Scripts目录，并在Scripts中生成easy_install.exe等工具
+3.安装
+	a.离线
+		下载.egg文件，调用easy_install xxxx.egg
+	b.在线指定egg
+		easy_install http://somehost.somedomain.com/somepackage.egg
+	c.在线指定安装包名称
+		easy_install simplejson
+		
+	

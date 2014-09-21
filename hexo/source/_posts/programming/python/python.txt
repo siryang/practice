@@ -1,0 +1,3 @@
+问题：Python重装或者修改安装目录名称后，可能会出现默认打开方式失效。且无法重新指定
+解决方案：在注册表中搜索python.exe，其对应子项中有shell --> open --> commend 里面有path，把这个值修改成你的python.exe位置。
+HKEY_USERS>>S-1-5-21-1035390612-1815515327-2744946262-2495>>Software>>Classes>>Applications>>python.exe>>shell
