@@ -1,0 +1,2 @@
+首先使用apache创建http目录
+将wordpress内容复制到目录

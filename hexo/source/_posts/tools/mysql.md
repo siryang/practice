@@ -39,6 +39,7 @@ use @table_name
 ```
 show grants for @user_name
 GRANT ALL PRIVILEGES ON *.* TO 'comment'@'%' IDENTIFIED BY "comment" WITH GRANT OPTION; 
+REVOKE INSERT ON *.* FROM 'comment'@'%';
 ```
 mysql --host=10.10.23.74 --user=comment --password=comment
 
