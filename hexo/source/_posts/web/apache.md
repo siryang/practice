@@ -16,3 +16,5 @@ Alias /ruby /workspace/ruby
 注意selinux对目录权限的限制
 ```
 http://www.splaybow.com/post/centos-yum-apache.html
+
+### 403
