@@ -1,7 +1,7 @@
 title: hexo format
 date: 2014-05-26 20:02:52
 categories:
-- Tools
+- tools
 tags: 
 - hexo
 ---
@@ -13,16 +13,44 @@ tags:
 - hexo
 ```
 
-#MarkDown
+
+# MarkDown
 ##不错的协作工具
 * [mahua:在线编辑markdown文档的编辑器](http://mahua.jser.me/) 
 * linux shell下查看markdown文件 [工具](http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip)
 {% img [class names] /images/image_test.jpg 392 220 "test images"%}
 
-##目录
+---
+
+## 目录
 [CMD][1]的Markdown模板支持自动生成目录，
 Github貌似不支持，不过可以添加文档内引用，如[目录](##目录)
 
+## HighLight
+
+{% codeblock test_coding lang:cpp http://www.baidu.com 百度 %}
+#include <stdio.h>
+int main()
+{
+	return 0;
+}
+{% endcodeblock %}
+
+``` cpp hello http://www.baidu.com 百度
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout << "hello" << endl;
+	return 0;
+}
+```
+<!-- more i hide this -->
+12312321
+<!-- more -->
+12312
+
+---
 
 爱好篮球的亲们
 最近的季后赛有木有让你看的手痒

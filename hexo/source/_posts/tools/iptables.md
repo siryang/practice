@@ -1,5 +1,5 @@
-## linux·À»ğÇ½ÉèÖÃ
+ï»¿## linuxé˜²ç«å¢™è®¾ç½®
 
 service iptables status
 
-·À»ğÇ½ÅäÖÃÎÄ¼şÎ»ÖÃ£º/etc/sysconfig/iptables
+é˜²ç«å¢™é…ç½®æ–‡ä»¶ä½ç½®ï¼š/etc/sysconfig/iptables

@@ -1,3 +1,8 @@
+title: Socket
+categories:
+- cpp
+---
+
 server:
 socket
 bind

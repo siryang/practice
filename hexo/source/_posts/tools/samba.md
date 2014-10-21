@@ -1,15 +1,15 @@
 ```
 	cp /etc/samba/smb.conf /etc/samba/smb.conf-original
 	vim /etc/samba/smb.conf
-	useradd samba // ´´½¨¹²ÏíÕË»§
-	passwd samba // ÕË»§ÃÜÂë
-	smbpasswd -a samba // samba ÃÜÂë
-	service smb reload / restart // ÖØÆôsamba·þÎñ
-	service iptables stop // ¹Ø±Õ·À»ðÇ½, Ò²¿ÉÒÔÐÞ¸Ä/etc/sysconfig/iptables´ò¿ª¶Ë¿Ú£¬Ò²¿ÉÒÔÓÃLinuxÍ¼ÐÎ¹ÜÀí¹¤¾ß
-	chcon -t samba_share_t /share // ÉèÖÃselinux
+	useradd samba // åˆ›å»ºå…±äº«è´¦æˆ·
+	passwd samba // è´¦æˆ·å¯†ç 
+	smbpasswd -a samba // samba å¯†ç 
+	service smb reload / restart // é‡å¯sambaæœåŠ¡
+	service iptables stop // å…³é—­é˜²ç«å¢™, ä¹Ÿå¯ä»¥ä¿®æ”¹/etc/sysconfig/iptablesæ‰“å¼€ç«¯å£ï¼Œä¹Ÿå¯ä»¥ç”¨Linuxå›¾å½¢ç®¡ç†å·¥å…·
+	chcon -t samba_share_t /share // è®¾ç½®selinux
 	chcon -t samba_share_t /home/samba
-	testparm // ²âÊÔ
-	smbclient //127.0.0.1/share --user samba //ÔÚ±¾µØ²âÊÔÁ¬½Ó
+	testparm // æµ‹è¯•
+	smbclient //127.0.0.1/share --user samba //åœ¨æœ¬åœ°æµ‹è¯•è¿žæŽ¥
 ```
 
 ```
@@ -24,17 +24,17 @@ insert to smb.conf
 
 
 
-[ÈçºÎÅäÖÃ]( service smb status)
-[´íÎó£ºtree connect failed: NT_STATUS_ACCESS_DENI](http://callmepeanut.blog.51cto.com/7756998/1304442)
+[å¦‚ä½•é…ç½®]( service smb status)
+[é”™è¯¯ï¼štree connect failed: NT_STATUS_ACCESS_DENI](http://callmepeanut.blog.51cto.com/7756998/1304442)
 
-### ´íÎó£ºNT_STATUS_ACCESS_DENIED
+### é”™è¯¯ï¼šNT_STATUS_ACCESS_DENIED
 
 
-[´íÎó£ºNT_STATUS_ACCESS_DENIED listing - Access](http://www.it2down.com/it-access/412718.htm)
+[é”™è¯¯ï¼šNT_STATUS_ACCESS_DENIED listing - Access](http://www.it2down.com/it-access/412718.htm)
 > NT_STATUS_ACCESS_DENIED listing *
-ÔÚCENTOSÉÏÅäÁË¸öSAMBAÓëWINDOW¹²ÏíÎÄ¼þ¡£
+åœ¨CENTOSä¸Šé…äº†ä¸ªSAMBAä¸ŽWINDOWå…±äº«æ–‡ä»¶ã€‚
 
-Ò»·ÃÎÊ¹²ÏíÄ¿Â¼¾Í¡±NT_STATUS_ACCESS_DENIED listing *¡° £¬ÕÒÁËºÃ¾Ã£¬·¢ÏÖÊÇSELINUX×èµ²ÁË¡£
+ä¸€è®¿é—®å…±äº«ç›®å½•å°±â€NT_STATUS_ACCESS_DENIED listing *â€œ ï¼Œæ‰¾äº†å¥½ä¹…ï¼Œå‘çŽ°æ˜¯SELINUXé˜»æŒ¡äº†ã€‚
 
 
 
@@ -45,30 +45,30 @@ NT_STATUS_ACCESS_DENIED listing *
 
                 52265 blocks of size 1048576. 48406 blocks available
 
-½â¾ö·½·¨Ò»£º
+è§£å†³æ–¹æ³•ä¸€ï¼š
 
-¹Ø±ÕSELIUNX
+å…³é—­SELIUNX
 
-[root@linux /]# getenforce   ;²é¿´µ±Ç°×´Ì¬
+[root@linux /]# getenforce   ;æŸ¥çœ‹å½“å‰çŠ¶æ€
 Enforcing 
 
 [root@linux /]# setenforce 0;
 
 
 
-SELINUX¼¸ÖÖ×´Ì¬±íÊ¾£º
+SELINUXå‡ ç§çŠ¶æ€è¡¨ç¤ºï¼š
 
-enforcing£ºÇ¿ÖÆÄ£Ê½£¬´ú±í SELinux ÔËÐÐÖÐ£¬ÇÒÒÑ¾­ÕýÈ·µÄ¿ªÊ¼ÏÞÖÆ domain/type ÁË£»
-permissive£º¿íÈÝÄ£Ê½£º´ú±í SELinux ÔËÐÐÖÐ£¬²»¹ý½ö»áÓÐ¾¯¸æÐÅÏ¢²¢²»»áÊµ¼ÊÏÞÖÆ domain/type µÄ´æÈ¡¡£ÕâÖÖÄ£Ê½¿ÉÒÔÔËÀ´×÷Îª SELinux µÄ debug Ö®ÓÃ£»
-disabled£º¹Ø±Õ£¬SELinux ²¢Ã»ÓÐÊµ¼ÊÔËÐÐ¡£
+enforcingï¼šå¼ºåˆ¶æ¨¡å¼ï¼Œä»£è¡¨ SELinux è¿è¡Œä¸­ï¼Œä¸”å·²ç»æ­£ç¡®çš„å¼€å§‹é™åˆ¶ domain/type äº†ï¼›
+permissiveï¼šå®½å®¹æ¨¡å¼ï¼šä»£è¡¨ SELinux è¿è¡Œä¸­ï¼Œä¸è¿‡ä»…ä¼šæœ‰è­¦å‘Šä¿¡æ¯å¹¶ä¸ä¼šå®žé™…é™åˆ¶ domain/type çš„å­˜å–ã€‚è¿™ç§æ¨¡å¼å¯ä»¥è¿æ¥ä½œä¸º SELinux çš„ debug ä¹‹ç”¨ï¼›
+disabledï¼šå…³é—­ï¼ŒSELinux å¹¶æ²¡æœ‰å®žé™…è¿è¡Œã€‚
 
 
 
-½â¾ö·½·¨¶þ£º
+è§£å†³æ–¹æ³•äºŒï¼š
 
-¸ü¸ÄselinuxµÄ²ßÂÔ
+æ›´æ”¹selinuxçš„ç­–ç•¥
 
-chcon -t samba_share_t  ¹²ÏíÄ¿Â¼(/var/www/html)
+chcon -t samba_share_t  å…±äº«ç›®å½•(/var/www/html)
 
 
 chcon -t samba_share_t /share /workspace

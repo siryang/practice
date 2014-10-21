@@ -1,7 +1,7 @@
 title: Modern C++ Design(1)
 date: 2014-06-04 15:29:59
 categories:
-- CPP
+- cpp
 tags: 
 - reading
 - template

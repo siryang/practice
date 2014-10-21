@@ -1,10 +1,10 @@
+ï»¿title: AGGç”¨æ³•
 
+## çª—ä½“
 
-## ´°Ìå
+## å…‰æ …åŒ– rasterizer
 
-## ¹âÕ¤»¯ rasterizer
-
-## äÖÈ¾Æ÷ renderers
+## æ¸²æŸ“å™¨ renderers
 
 
 pixel_type

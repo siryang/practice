@@ -1,4 +1,4 @@
->sqlite3 diff.db
+﻿>sqlite3 diff.db
 
 sqlite> .output ts.txt
 sqlite> select gridId from qvf;
