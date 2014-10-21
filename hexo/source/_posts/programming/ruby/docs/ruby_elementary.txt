@@ -2,7 +2,7 @@
 ##File.rename
 
 ##shell command
-	`dir`.encoding("utf-8")
+	`dir`.encode("utf-8")
 
 ##exception
 	begin

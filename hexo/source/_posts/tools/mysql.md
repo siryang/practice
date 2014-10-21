@@ -33,6 +33,10 @@ use @database name;
 show tables;
 use @table_name
 
+show variables;
+show variables like "%time%";
+set wait_timeout=2;
+
 
 ###用户权限
 
