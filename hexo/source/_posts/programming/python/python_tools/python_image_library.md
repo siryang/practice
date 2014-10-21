@@ -1,3 +1,8 @@
+title: Python基础
+categories:
+- Python
+
+
 # python image library
 
 http://effbot.org/zone/pil-index.htm
