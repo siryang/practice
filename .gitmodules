@@ -1,0 +1,3 @@
+[submodule "hexo/themes/cover"]
+	path = hexo/themes/cover
+	url = https://github.com/daisygao/hexo-themes-cover.git

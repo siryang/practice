@@ -1,3 +1,5 @@
+ï»¿# Android Design
+
 Layer--xml
 	Linear Layout
 	Relative Layout
@@ -6,66 +8,66 @@ Layer--xml
 
 
 
-Android½çÃæÉè¼ÆÎªxml¸ñÊ½£¬´æ·ÅÔÚresÄ¿Â¼ÏÂ
+Androidç•Œé¢è®¾è®¡ä¸ºxmlæ ¼å¼ï¼Œå­˜æ”¾åœ¨resç›®å½•ä¸‹
 
-	android:layout_width // ´°Ìå¿í¶È--match_parent´ú±íÌîÂúparent
-	android:layout_height // ´°Ìå¸ß¶È--match_parent´ú±íÌîÂúparent
+	android:layout_width // çª—ä½“å®½åº¦--match_parentä»£è¡¨å¡«æ»¡parent
+	android:layout_height // çª—ä½“é«˜åº¦--match_parentä»£è¡¨å¡«æ»¡parent
 
-	android:id // ´°ÌåÎ¨Ò»±êÊ¶
+	android:id // çª—ä½“å”¯ä¸€æ ‡è¯†
 	
 values/string.xml
-	½«×Ö·û´®ÒÔname="key">value<¸ñÊ½Ð´Èë·Åµ½ÖÐ£¬ÔÚ´°ÌåÉè¼ÆµÄxmlÖÐÊ¹ÓÃ@string:key·ÃÎÊ
+	å°†å­—ç¬¦ä¸²ä»¥name="key">value<æ ¼å¼å†™å…¥æ”¾åˆ°ä¸­ï¼Œåœ¨çª—ä½“è®¾è®¡çš„xmlä¸­ä½¿ç”¨@string:keyè®¿é—®
 	
 
 Context:
-	ContextÀàÊÇ³éÏóÀà£¬Ìá¹©ÁËÒ»×éÍ¨ÓÃµÄPOIÓÃÓÚ·ÃÎÊÓ¦ÓÃ³ÌÐòÈ«¾ÖÐÅÏ¢¡£Ò»Ð©Ó¦ÓÃ¼¶±ðµÄÀà£¨AndroidÄÚ²¿Àà£©¶¼¼Ì³Ð×ÔContext
-	×ÜContextÊµÀý¸öÊý = Service¸öÊý + Activity¸öÊý + 1£¨Application¶ÔÓ¦µÄContextÊµÀý£©
+	Contextç±»æ˜¯æŠ½è±¡ç±»ï¼Œæä¾›äº†ä¸€ç»„é€šç”¨çš„POIç”¨äºŽè®¿é—®åº”ç”¨ç¨‹åºå…¨å±€ä¿¡æ¯ã€‚ä¸€äº›åº”ç”¨çº§åˆ«çš„ç±»ï¼ˆAndroidå†…éƒ¨ç±»ï¼‰éƒ½ç»§æ‰¿è‡ªContext
+	æ€»Contextå®žä¾‹ä¸ªæ•° = Serviceä¸ªæ•° + Activityä¸ªæ•° + 1ï¼ˆApplicationå¯¹åº”çš„Contextå®žä¾‹ï¼‰
 Activity:
-	Ò»¸öActivity¶ÔÓ¦Ò»¸öÓ¦ÓÃ³ÌÐò½çÃæ£¬¿ÉÒÔÆô¶¯ÆäËüActivityÒÔÌø×ª½çÃæ
-	´´½¨·½·¨£ºstartActivity() / startActivityForResult()
-	Ìá¹©onCreate(), onStart()½Ó¿Ú£¬µ±Activity´´½¨Ê±£¬»Øµ÷
+	ä¸€ä¸ªActivityå¯¹åº”ä¸€ä¸ªåº”ç”¨ç¨‹åºç•Œé¢ï¼Œå¯ä»¥å¯åŠ¨å…¶å®ƒActivityä»¥è·³è½¬ç•Œé¢
+	åˆ›å»ºæ–¹æ³•ï¼šstartActivity() / startActivityForResult()
+	æä¾›onCreate(), onStart()æŽ¥å£ï¼Œå½“Activityåˆ›å»ºæ—¶ï¼Œå›žè°ƒ
 
 Service:
-	Ó¦ÓÃµÄºóÌ¨·þÎñ£¬ÉúÃüÖÜÆÚ²»È¡¾öÓÚÄ³¸öActivity¡£
-	´´½¨·½·¨£ºstartService() / bindService()
+	åº”ç”¨çš„åŽå°æœåŠ¡ï¼Œç”Ÿå‘½å‘¨æœŸä¸å–å†³äºŽæŸä¸ªActivityã€‚
+	åˆ›å»ºæ–¹æ³•ï¼šstartService() / bindService()
 
 Intent:
-	ÓÃÓÚÆÁÄ»¹ÜÀíÇÐ»»£¬²Ù×÷·½·¨·Ö¡°¶¯×÷£¨£©¡±ºÍ¡°Êý¾Ý£¨URL±íÊ¾£©¡±Á½²¿·Ö
+	ç”¨äºŽå±å¹•ç®¡ç†åˆ‡æ¢ï¼Œæ“ä½œæ–¹æ³•åˆ†â€œåŠ¨ä½œï¼ˆï¼‰â€å’Œâ€œæ•°æ®ï¼ˆURLè¡¨ç¤ºï¼‰â€ä¸¤éƒ¨åˆ†
 	IntentFilter:
-		ÓÃÓÚÃèÊöÒ»¸öActivity/IntentReceiverÄÜ¹»²Ù×÷ÄÄÐ©intent
-		ÐèÒªÔÚAndroidMainifest.xmlÖÐ¶¨ÒåÔõÃ´È¥´¦ÀíView¶¯×÷ºÍURL£¬µ±startActivity()µ÷ÓÃÊ±£¬»áÈ¥½âÎö¶ÔÓ¦µÄxml£¬²¢´¥·¢ÏàÓ¦¶¯×÷¡£
+		ç”¨äºŽæè¿°ä¸€ä¸ªActivity/IntentReceiverèƒ½å¤Ÿæ“ä½œå“ªäº›intent
+		éœ€è¦åœ¨AndroidMainifest.xmlä¸­å®šä¹‰æ€Žä¹ˆåŽ»å¤„ç†ViewåŠ¨ä½œå’ŒURLï¼Œå½“startActivity()è°ƒç”¨æ—¶ï¼Œä¼šåŽ»è§£æžå¯¹åº”çš„xmlï¼Œå¹¶è§¦å‘ç›¸åº”åŠ¨ä½œã€‚
 	IntentReceiver:
-		InetnetReceiver¿ÉÒÔ¶ÔÏµÍ³ÊÂ¼þµÄÏìÓ¦£¬µ±ÊÂ¼þ·¢ÉúÊ±»áÓÃNotificationManagerÍ¨ÖªÓÃ»§
-		ÔÚAndroidMainifest.xmlÖÐ×¢²á £¬Ò²¿ÉÒÔÓÃContext.registerReceiver()×¢²á
-		Ê¹ÓÃContext.broadcastIntent()¿ÉÒÔ½«ÊÂ¼þ¹ã²¥¸øÆäËü³ÌÐò¡£
-Content Provider£º
-	ÓÃÓÚAndroidÓ¦ÓÃÖ®¼ä´«µÝÊý¾Ý£¬ÈçÄ³Ó¦ÓÃ¶ÁÍ¨Ñ¶Â¼ºÍÎ¢²©Êý¾Ý
+		InetnetReceiverå¯ä»¥å¯¹ç³»ç»Ÿäº‹ä»¶çš„å“åº”ï¼Œå½“äº‹ä»¶å‘ç”Ÿæ—¶ä¼šç”¨NotificationManageré€šçŸ¥ç”¨æˆ·
+		åœ¨AndroidMainifest.xmlä¸­æ³¨å†Œ ï¼Œä¹Ÿå¯ä»¥ç”¨Context.registerReceiver()æ³¨å†Œ
+		ä½¿ç”¨Context.broadcastIntent()å¯ä»¥å°†äº‹ä»¶å¹¿æ’­ç»™å…¶å®ƒç¨‹åºã€‚
+Content Providerï¼š
+	ç”¨äºŽAndroidåº”ç”¨ä¹‹é—´ä¼ é€’æ•°æ®ï¼Œå¦‚æŸåº”ç”¨è¯»é€šè®¯å½•å’Œå¾®åšæ•°æ®
 
 
-AndroidÌá¹©µÄAPI
-android.app £ºÌá¹©¸ß²ãµÄ³ÌÐòÄ£ÐÍ¡¢Ìá¹©»ù±¾µÄÔËÐÐ»·¾³
-android.content £º°üº¬¸÷ÖÖµÄ¶ÔÉè±¸ÉÏµÄÊý¾Ý½øÐÐ·ÃÎÊºÍ·¢²¼µÄÀà
-android.database £ºÍ¨¹ýÄÚÈÝÌá¹©Õßä¯ÀÀºÍ²Ù×÷Êý¾Ý¿â
-android.graphics £ºµ×²ãµÄÍ¼ÐÎ¿â£¬°üº¬»­²¼£¬ÑÕÉ«¹ýÂË£¬µã£¬¾ØÐÎ£¬¿ÉÒÔ½«ËûÃÇÖ±½Ó»æÖÆµ½ÆÁÄ»ÉÏ.
-android.location £º¶¨Î»ºÍÏà¹Ø·þÎñµÄÀà
-android.media £ºÌá¹©Ò»Ð©Àà¹ÜÀí¶àÖÖÒôÆµ¡¢ÊÓÆµµÄÃ½Ìå½Ó¿Ú
-android.net £ºÌá¹©°ïÖúÍøÂç·ÃÎÊµÄÀà£¬³¬¹ýÍ¨³£µÄ java.net.* ½Ó¿Ú
-android.os £ºÌá¹©ÁËÏµÍ³·þÎñ¡¢ÏûÏ¢´«Êä¡¢IPC »úÖÆ
-android.opengl £ºÌá¹© OpenGL µÄ¹¤¾ß
-android.provider £ºÌá¹©Àà·ÃÎÊ Android µÄÄÚÈÝÌá¹©Õß
-android.telephony £ºÌá¹©Óë²¦´òµç»°Ïà¹ØµÄ API ½»»¥
-android.view £ºÌá¹©»ù´¡µÄÓÃ»§½çÃæ½Ó¿Ú¿ò¼Ü
-android.util £ºÉæ¼°¹¤¾ßÐÔµÄ·½·¨£¬ÀýÈçÊ±¼äÈÕÆÚµÄ²Ù×÷
-android.webkit £ºÄ¬ÈÏä¯ÀÀÆ÷²Ù×÷½Ó¿Ú
-android.widget £º°üº¬¸÷ÖÖ UI ÔªËØ£¨´ó²¿·ÖÊÇ¿É¼ûµÄ£©ÔÚÓ¦ÓÃ³ÌÐòµÄÆÁÄ»ÖÐÊ¹ÓÃ
+Androidæä¾›çš„API
+android.app ï¼šæä¾›é«˜å±‚çš„ç¨‹åºæ¨¡åž‹ã€æä¾›åŸºæœ¬çš„è¿è¡ŒçŽ¯å¢ƒ
+android.content ï¼šåŒ…å«å„ç§çš„å¯¹è®¾å¤‡ä¸Šçš„æ•°æ®è¿›è¡Œè®¿é—®å’Œå‘å¸ƒçš„ç±»
+android.database ï¼šé€šè¿‡å†…å®¹æä¾›è€…æµè§ˆå’Œæ“ä½œæ•°æ®åº“
+android.graphics ï¼šåº•å±‚çš„å›¾å½¢åº“ï¼ŒåŒ…å«ç”»å¸ƒï¼Œé¢œè‰²è¿‡æ»¤ï¼Œç‚¹ï¼ŒçŸ©å½¢ï¼Œå¯ä»¥å°†ä»–ä»¬ç›´æŽ¥ç»˜åˆ¶åˆ°å±å¹•ä¸Š.
+android.location ï¼šå®šä½å’Œç›¸å…³æœåŠ¡çš„ç±»
+android.media ï¼šæä¾›ä¸€äº›ç±»ç®¡ç†å¤šç§éŸ³é¢‘ã€è§†é¢‘çš„åª’ä½“æŽ¥å£
+android.net ï¼šæä¾›å¸®åŠ©ç½‘ç»œè®¿é—®çš„ç±»ï¼Œè¶…è¿‡é€šå¸¸çš„ java.net.* æŽ¥å£
+android.os ï¼šæä¾›äº†ç³»ç»ŸæœåŠ¡ã€æ¶ˆæ¯ä¼ è¾“ã€IPC æœºåˆ¶
+android.opengl ï¼šæä¾› OpenGL çš„å·¥å…·
+android.provider ï¼šæä¾›ç±»è®¿é—® Android çš„å†…å®¹æä¾›è€…
+android.telephony ï¼šæä¾›ä¸Žæ‹¨æ‰“ç”µè¯ç›¸å…³çš„ API äº¤äº’
+android.view ï¼šæä¾›åŸºç¡€çš„ç”¨æˆ·ç•Œé¢æŽ¥å£æ¡†æž¶
+android.util ï¼šæ¶‰åŠå·¥å…·æ€§çš„æ–¹æ³•ï¼Œä¾‹å¦‚æ—¶é—´æ—¥æœŸçš„æ“ä½œ
+android.webkit ï¼šé»˜è®¤æµè§ˆå™¨æ“ä½œæŽ¥å£
+android.widget ï¼šåŒ…å«å„ç§ UI å…ƒç´ ï¼ˆå¤§éƒ¨åˆ†æ˜¯å¯è§çš„ï¼‰åœ¨åº”ç”¨ç¨‹åºçš„å±å¹•ä¸­ä½¿ç”¨
 
 
-JVMºÍDalvikÐéÄâ»ú
+JVMå’ŒDalvikè™šæ‹Ÿæœº
 
-.java Ô´ÎÄ¼þ
-.class Ä¿±êÎÄ¼þ(ÎÞ·¨ÔÚAndroid DalvikÉÏÖ´ÐÐ,ÐèÒªÁ´½Ó³ÉdexÎÄ¼þ)
-.dex AndroidÉÏµÄ¿ÉÖ´ÐÐÎÄ¼þ
-.apk AndroidÉÏµÄ°²×°ÎÄ¼þ£¬´ò°üÁËAndroidMainifest.xml¡¢dex¡¢×ÊÔ´ÎÄ¼þºÍÆäËûÎÄ¼þ
+.java æºæ–‡ä»¶
+.class ç›®æ ‡æ–‡ä»¶(æ— æ³•åœ¨Android Dalvikä¸Šæ‰§è¡Œ,éœ€è¦é“¾æŽ¥æˆdexæ–‡ä»¶)
+.dex Androidä¸Šçš„å¯æ‰§è¡Œæ–‡ä»¶
+.apk Androidä¸Šçš„å®‰è£…æ–‡ä»¶ï¼Œæ‰“åŒ…äº†AndroidMainifest.xmlã€dexã€èµ„æºæ–‡ä»¶å’Œå…¶ä»–æ–‡ä»¶
 
 
 
