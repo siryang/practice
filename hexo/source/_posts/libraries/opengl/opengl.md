@@ -1,4 +1,4 @@
-title: OpenGLç¦»å±æ¸²æŸ“
+title: OpenGLÀëÆÁäÖÈ¾
 categories:
 - OpenGL
 
@@ -7,44 +7,44 @@ categories:
 A FBO (Framebuffer object) is a target where you can render images other than the default frame buffer or screen.
 
 A PBO (Pixel Buffer Object) allows asynchronous transfers of pixel data to and from the device. 
-PBO(åƒç´ ç¼“å†²å¯¹è±¡): å…è®¸åƒç´ å’Œè®¾å¤‡åŒæ­¥ä¼ å…¥/ä¼ å‡ºï¼Œ
+PBO(ÏñËØ»º³å¶ÔÏó): ÔÊÐíÏñËØºÍÉè±¸Í¬²½´«Èë/´«³ö£¬
 
 This can be helpful to improve overall performance when rendering if you have other things that can be done while waiting for the pixel transfer.
-å½“åœ¨ç­‰å¾…åƒç´ è½¬æ¢æ—¶ï¼Œè¦è¿›è¡Œå…¶ä»–å¤„ç†æ—¶ï¼Œæœ‰åˆ©äºŽæé«˜æ•´ä½“æ€§èƒ½
+µ±ÔÚµÈ´ýÏñËØ×ª»»Ê±£¬Òª½øÐÐÆäËû´¦ÀíÊ±£¬ÓÐÀûÓÚÌá¸ßÕûÌåÐÔÄÜ
 ```
 
-* GLTStopwatch 1/100ç§’æ¸²æŸ“å¤šå°‘å±ï¼Ÿ
+* GLTStopwatch 1/100ÃëäÖÈ¾¶àÉÙÆÁ£¿
 	* GLTStopwatchReset()
 	* GLTStopwatchRead()
 
 
-# ä½¿ç”¨OpenGLç»˜å›¾åˆ°æ–‡ä»¶
+# Ê¹ÓÃOpenGL»æÍ¼µ½ÎÄ¼þ
 
-è¯»å–å°†OpenGLç»˜å›¾ç»“æžœå‡½æ•°ä¸º`glReadPixels`, å¯ä»¥å®žçŽ°å°†å±å¹•å†…å®¹copyåˆ°æœ¬åœ°å†…å­˜
+¶ÁÈ¡½«OpenGL»æÍ¼½á¹ûº¯ÊýÎª`glReadPixels`, ¿ÉÒÔÊµÏÖ½«ÆÁÄ»ÄÚÈÝcopyµ½±¾µØÄÚ´æ
 
 
 ## GLX PixelMap
-éžç¡¬ä»¶åŠ é€Ÿ
-åˆ›å»ºä¸€å—å†…å­˜åŒºåŸŸç»™OpenGL, ç”³è¯·çš„åŒºåŸŸæ˜¯OpenGLçš„å®žé™…ç»˜å›¾åŒºåŸŸ
+·ÇÓ²¼þ¼ÓËÙ
+´´½¨Ò»¿éÄÚ´æÇøÓò¸øOpenGL, ÉêÇëµÄÇøÓòÊÇOpenGLµÄÊµ¼Ê»æÍ¼ÇøÓò
 
 ## PBuffer
-PBufferä½¿ç”¨å›¾å½¢å†…å­˜è€Œä¸æ˜¯XPixelMap
-æ®è¯´åœ¨æ–°ç‰ˆçš„OpengGLä¸­å·²ç»è¢«é€æ­¥åºŸå¼ƒ
+PBufferÊ¹ÓÃÍ¼ÐÎÄÚ´æ¶ø²»ÊÇXPixelMap
+¾ÝËµÔÚÐÂ°æµÄOpengGLÖÐÒÑ¾­±»Öð²½·ÏÆú
 
 ## Framebuffer Object
-é€šè¿‡æŒ‡å®šRender Buffer ObjectæŒ‡å®šæ¸²æŸ“ä½ç½®ï¼Œå¹¶ä¸”å¯ä»¥å¿«é€Ÿåˆ‡æ¢æ¸²æŸ“ä½ç½®
+Í¨¹ýÖ¸¶¨Render Buffer ObjectÖ¸¶¨äÖÈ¾Î»ÖÃ£¬²¢ÇÒ¿ÉÒÔ¿ìËÙÇÐ»»äÖÈ¾Î»ÖÃ
 
 ## Pixel Buffer Object
-ä¸»è¦ç”¨äºŽæ”¯æŒå¼‚æ­¥çº¹ç†è¯»å†™
+Ö÷ÒªÓÃÓÚÖ§³ÖÒì²½ÎÆÀí¶ÁÐ´
 
 
-## æ¯”è¾ƒ
-OpenGLè“çš®ä¹¦ç¬¬ä¸‰ç‰ˆä¸­è®²è§£äº†Linuxä¸‹ä½¿ç”¨GLX PixelMapå’ŒPBufferåšç¦»å±æ¸²æŸ“çš„æ–¹æ³•ï¼Œåœ¨ç¬¬äº”ç‰ˆä¸­åˆ é™¤äº†è¿™ç« ï¼Œ
-æ®è¯´åŽ‚å•†é€æ­¥åºŸå¼ƒä¸Šè¿°PBufferæ–¹æ¡ˆ
+## ±È½Ï
+OpenGLÀ¶Æ¤ÊéµÚÈý°æÖÐ½²½âÁËLinuxÏÂÊ¹ÓÃGLX PixelMapºÍPBuffer×öÀëÆÁäÖÈ¾µÄ·½·¨£¬ÔÚµÚÎå°æÖÐÉ¾³ýÁËÕâÕÂ£¬
+¾ÝËµ³§ÉÌÖð²½·ÏÆúÉÏÊöPBuffer·½°¸
 
-FBOæ–¹æ¡ˆè¢«æå€¡ç”¨æ¥åšç¦»å±æ¸²æŸ“
+FBO·½°¸±»Ìá³«ÓÃÀ´×öÀëÆÁäÖÈ¾
 
-PBOæ–¹æ¡ˆè¢«æå€¡ç”¨æ¥åšå¼‚æ­¥åƒç´ å¤„ç†
+PBO·½°¸±»Ìá³«ÓÃÀ´×öÒì²½ÏñËØ´¦Àí
 
 
 http://www.opengl.org/discussion_boards/showthread.php/168610-pBuffer-vs-PBO-vs-FBO
