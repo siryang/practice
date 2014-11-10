@@ -35,7 +35,11 @@ use @table_name
 
 show variables;
 show variables like "%time%";
+select @@global.wait_timeout;
+
 set wait_timeout=2;
+set global wait_timeout=2;
+
 
 
 ###用户权限
@@ -48,4 +52,10 @@ REVOKE INSERT ON *.* FROM 'comment'@'%';
 mysql --host=10.10.23.74 --user=comment --password=comment
 
 ###经验
+libmysqlclient文档中关于MYSQL_OPT_RECONNECT的用法是：
+//mysql_option(mysql, MYSQL_OPT_RECONNECT, &bool); // call after mysql version xxx
+mysql_real_connect();
+//mysql_option(mysql, MYSQL_OPT_RECONNECT, &bool); // call before mysql version xxx
+mysql_ping(); // mysql_ping会判断mysql->reconnect参数并进行重新连接
 
+实测MYSQL_OPT_RECONNECT不好用（难道是上面用法有问题？），尽量自己实现RECONNECT
