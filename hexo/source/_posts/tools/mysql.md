@@ -45,8 +45,13 @@ set global wait_timeout=2;
 ###用户权限
 
 ```
+# 授权信息
 show grants for @user_name
+
+# 授权
 GRANT ALL PRIVILEGES ON *.* TO 'comment'@'%' IDENTIFIED BY "comment" WITH GRANT OPTION; 
+
+# 解除授权
 REVOKE INSERT ON *.* FROM 'comment'@'%';
 ```
 mysql --host=10.10.23.74 --user=comment --password=comment
@@ -59,3 +64,5 @@ mysql_real_connect();
 mysql_ping(); // mysql_ping会判断mysql->reconnect参数并进行重新连接
 
 实测MYSQL_OPT_RECONNECT不好用（难道是上面用法有问题？），尽量自己实现RECONNECT
+
+

@@ -13,9 +13,19 @@
 
 ## 网络指令
 ### 端口
+
+``` shell
 netstat -apn | grep 80
 kill -9 PID
+```
 
+## 服务
+
+``` shell
+service mysqld start/status/stop #mysql
+service httpd start # apache
+service nginx start
+```
 
 ---
 
@@ -29,5 +39,50 @@ kill -9 PID
 * grep
 ** egrep == grep -e
 ** 查找source目录下的所有c/cpp文件，find ./source | grep "\.cpp$|\.c$"
+
+
+## 脚本
+
+### 执行参数
+
+	$0 param 1
+	$1 param 2
+	$2 param 3
+	$3 param 4
+	$# param number 
+	$@ all params
+
+```shell
+
+while getopts ":dh" opt;
+do
+	case $opt in 
+		h)
+			echo "-h"
+			;;
+		d)	echo "-d";;
+		?)  echo "invalid";;
+	esac
+done
+
+```
+
+### 函数
+
+```shell
+function system_info
+{
+    echo "<h2>System release info</h2>"
+    echo "<p>Function not yet implemented</p>"
+
+}   # end of system_info
+```
+
+
+
+
+
+
+
 
 

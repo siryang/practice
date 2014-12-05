@@ -29,6 +29,7 @@ Apache / Nginx / lighttpd 是一类，都是专用的WEB服务器，Tomcat / Jet
 3. 稳定性不如Nginx和Apache
 
 ###Nginx
+[教程](./nginx.md)
 1. 资源占用少
 2. 来自俄罗斯
 3. 似乎仅支持FCGI
