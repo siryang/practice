@@ -1,6 +1,4 @@
-title: mysql
-date: 2014-06-24 11:06:41
-tags: Mysql
+# MySql
 ---
 
 ## 安装MYSQL
@@ -64,5 +62,21 @@ mysql_real_connect();
 mysql_ping(); // mysql_ping会判断mysql->reconnect参数并进行重新连接
 
 实测MYSQL_OPT_RECONNECT不好用（难道是上面用法有问题？），尽量自己实现RECONNECT
+
+## Mysql优化
+
+### 高速查询缓存
+`query_cache_size`
+`SELECT * FROM tbl_name`和`Select * from tbl_name`不会激活查询缓存，查询完全相同是必要不充分条件。
+
+
+
+
+## Mysql簇
+Mysql簇是适用于分布式计算的Mysql版本，允许将多个Mysql服务器搭建为一个Mysql簇。
+用途
+* 1.动态增加节点
+* 2.多备份，自动同步
+* 3.跨区域部署
 
 
