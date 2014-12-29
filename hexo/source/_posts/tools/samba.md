@@ -1,3 +1,5 @@
+# **Samba** 配置
+
 ```
 	cp /etc/samba/smb.conf /etc/samba/smb.conf-original
 	vim /etc/samba/smb.conf

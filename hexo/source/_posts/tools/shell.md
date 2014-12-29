@@ -38,7 +38,7 @@ service nginx start
 
 * grep
 ** egrep == grep -e
-** 查找source目录下的所有c/cpp文件，find ./source | grep "\.cpp$|\.c$"
+** 查找source目录下的所有c/cpp文件，find ./source | grep -e "\.cpp$|\.c$"
 
 
 ## 脚本
@@ -66,6 +66,10 @@ do
 done
 
 ```
+### 判断
+if [ "$var" == "" ]; then
+	echot "empty string"
+fi
 
 ### 函数
 
