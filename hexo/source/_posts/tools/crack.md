@@ -24,3 +24,25 @@ activate offline.
 
 http://qqapp.qq.com/app/100619194.html
 
+
+## WINRAR
+
+winrar正确破解方法：
+1、正常安装WINRAR；
+2、打开WINRAR安装目录（默认是C:\Program Files\WinRAR）下的Rarreg.key，如果没有就新建一个Rarreg.key文件（右键点击文件名选“编辑”）；
+3、将以下两条横线间的部分（不包含横线）复制后覆盖Rarreg.key中的全部内容：
+---------------------------------
+RAR registration data
+cafevn
+Single PC usage license
+UID=bff246844b5c5708595a
+6412212250595aa9dfb5db06ca5c5b29cb38d3c346df871e689fcd
+26d40cd6724c7fea7a256035c6ab9048e2c5c62f0238f183d28519
+aa87488bf38f5b634cf28190bdf438ac593b1857cdb55a7fcb0eb0
+c3e4c2736090b3dfa45384e08e9de05c58601faaa5bf2fd204421a
+0af4a66c04f5f95c750b942c262c8defc92d51753d37c41772b696
+179d2401468afd8cdf6b526bd713b62d9d1c8b39f8f5c862600bd1
+6f2be0ead43d89dc20da9c292bbc37165bb690729a430802790431
+---------------------------------
+4、保存并退出Rarreg.key；
+5、重新启动WINRAR，在“关于”里面应可以看到：已注册给cafevn。

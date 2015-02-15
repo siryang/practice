@@ -33,3 +33,17 @@ tags: C
 
 浮点数总结：把表示这个数字的二进制码，从前往后，找到第一个1，从下一位开始保存到尾数。再将尾数总位数（值）保存到阶码中。
 所以，尾数拥有的位数能表示的精度都可以精确表示（即第一个1到最后一个1之间的位数小于等于尾数）
+
+### 优化
+
+``` c
+    const char* p = a + 3; // good
+00291073  mov         eax,dword ptr [a]  
+00291076  add         eax,3  
+00291079  mov         dword ptr [p],eax  
+    const char* q = &a[3]; // bad
+0029107C  mov         ecx,1  
+00291081  imul        edx,ecx,3  
+00291084  add         edx,dword ptr [a]  
+00291087  mov         dword ptr [q],edx  
+```
