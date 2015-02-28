@@ -9,7 +9,8 @@ I 进入插入模式模式/ R 进入修改模式/ D 删除选中块
 
 
 ### VIMRC
-set nu
-set tabstop=4
+
+    set nu
+    set tabstop=4
 
 

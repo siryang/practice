@@ -14,8 +14,7 @@
 ## 手表
 iwatch
 moto360
-果壳2代
-三星
+
 Other
 
 ## 手环
@@ -81,8 +80,8 @@ http://www.36kr.com/p/210758.html
 算法上的进步：
 [Google检测机器人](http://www.36kr.com/p/217530.html)
 [图像修补](http://www.36kr.com/p/217539.html)
-[Google晋升算法](http://www.36kr.com/p/217242.html)
 [马赛克眼镜](http://www.36kr.com/p/219000.html)
+[Google晋升算法](http://www.36kr.com/p/217242.html)
 
 # 其他
 [机械手臂](http://www.36kr.com/p/207549.html)
