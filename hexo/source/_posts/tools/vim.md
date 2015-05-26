@@ -13,12 +13,12 @@ I 进入插入模式模式/ R 进入修改模式/ D 删除选中块
 3. Python运行及Debug
 
 ### VIMRC
-
     set nu
     set tabstop/ts=4
-    set guifont/gfn=Consolas:h10:cANSI
+    set guifont/gfn=Consolas:h10:cANSI #字体设置
     syntax enable
-    syntax on
+    syntax on  # 着色
+    expandtab # 使用空格代替tab
 
 tips:
     输入`set ts`然后`tab`会自动补全为`tablestop`
@@ -35,7 +35,6 @@ TAG:
     :set tags=abs_path\tags
 
 * 2.run
-    
     C+]
     C+t
 

@@ -2,44 +2,68 @@
 
 ---
 
-## å¿«æ·é”®
+## ¿ì½İ¼ü
 
-`Ctrl+D`:Expand Secection to Word, å‘ä¸‹é€‰ä¸­ç›¸åŒå•è¯
-`Ctrl+L`:Expand Secection to Line, å‘ä¸‹é€‰ä¸­ä¸€è¡Œ
+`Ctrl+D`:Expand Secection to Word, ÏòÏÂÑ¡ÖĞÏàÍ¬µ¥´Ê
+`Ctrl+L`:Expand Secection to Line, ÏòÏÂÑ¡ÖĞÒ»ĞĞ
+`Alt+ÈıÖ¸`:ÁĞÑ¡Ôñ
 
-### åŠŸèƒ½ï¼š
+### ±à³ÌÏà¹Ø¿ì½İ¼ü
 
+`Cmd+g`: go to definition.
 
-* 1.pythonæ§åˆ¶å°
- 	ä½¿ç”¨Ctrl+`æ‰“å¼€
-* 2.Package Controlå®‰è£…
- 	æ‰“å¼€pythonæ§åˆ¶å°ï¼Œè¾“å…¥ä»¥ä¸‹ä»£ç 
-
- 	``` python
- 	import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
- 	```
- 	
- 	Ctrl+Shift+Påæœç´¢installï¼Œé€‰æ‹©Package Control:Install Packetå¯ä»¥å®‰è£…æ’ä»¶
-* 3.å®‰è£…è‡ªå®šä¹‰ColorTheme
- 	a.Preferences --> Browse Package
- 	b.è§£å‹åˆ°æ‰“å¼€çš„ç›®å½•
- 	c.Perferences --> Color Scheme --> User
+### ¹¦ÄÜ£º
 
 
-## é—®é¢˜ï¼š
+* 1.python¿ØÖÆÌ¨
+    Ê¹ÓÃCtrl+`´ò¿ª
 
-* 1.Sublimeç ´è§£ - http://bbs.pediy.com/showthread.php?t=182774
- 
-* 2.Sublimeä¸­æ–‡ä¹±ç 
- 	* a.æ‰“å¼€ANSIç¼–ç ä¸­æ–‡æ–‡æ¡£ä¹±ç 
-	 	ANSI(Windows-1252)æ˜¾ç¤ºä¸­æ–‡ä¹±ç  - ä½¿ç”¨Package Controlï¼šInstall Packetå®‰è£…ConvertToUTF8æ’ä»¶ï¼Œå³å¯è§£å†³
-	* b.æ‰“å¼€çš„æ–‡ä»¶çš„æ–‡ä»¶åä¸­æ–‡ä¹±ç 
-	* c.rubyç¨‹åºè¾“å‡ºä¸­çš„ä¸­æ–‡ä¹±ç 
-		ç”¨winraræ‰“å¼€â€œå®‰è£…ç›®å½•\\Packages"ç›®å½•ä¸­Ruby.sublime-package
-		ä¿®æ”¹å…¶ä¸­Ruby.sublime-buildï¼Œå¢åŠ "encoding": "GBK"ï¼ˆwindowså‘½ä»¤è¡Œè¿”å›çš„å­—ç¬¦ç¼–ç ï¼‰
-		ä¸Šé¢çš„æ”¹æ³•ï¼Œä¼šå¯¼è‡´UTF-8æ–‡æœ¬æ— æ³•æ­£å¸¸è¾“å‡ºï¼Œæœ€å¥½æ˜¯ä»æ”¹å›utf-8(é»˜è®¤)ï¼Œå¹¶ä¸”å°†å…¶ä»–å­—ç¬¦è½¬ç æˆutf-8
+* 2.Package Control°²×°
+    ´ò¿ªpython¿ØÖÆÌ¨£¬ÊäÈëÒÔÏÂ´úÂë
 
-* 3.ç¼–è¯‘æ‰§è¡Œrubyæ—¶ï¼Œgets()æ— æ³•äº¤äº’
-* 4.sublimeé»˜è®¤ä¸æ”¯æŒiniæ–‡ä»¶é«˜äº® https://github.com/clintberry/sublime-text-2-ini
-* 5.ç¼–è¯‘Pythonæ— æ³•è¾“å‡ºä¸­æ–‡ï¼ŒåŒ2-cä¸­æ–¹æ³•ï¼Œä¿®æ”¹Python.sublime-buildå¢åŠ 	"encoding": "cp936"åè§£å†³
+    ``` python
+    import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+    ```
 
+    Ctrl+Shift+PºóËÑË÷install£¬Ñ¡ÔñPackage Control:Install Packet¿ÉÒÔ°²×°²å¼ş
+
+* 3.°²×°×Ô¶¨ÒåColorTheme
+    a.Preferences --> Browse Package
+    b.½âÑ¹µ½´ò¿ªµÄÄ¿Â¼
+    c.Perferences --> Color Scheme --> User
+
+* 4.Add Repository
+
+    Add a repository that is not included in the default channel. This allows users to install and automatically update packages from GitHub and BitBucket. To add a package hosted on GitHub, enter the URL in the form https://github.com/username/repo. Don¡¯t include .git at the end! BitBucket repositories should use the format https://bitbucket.org/username/repository.
+
+
+## ÎÊÌâ£º
+
+* 1.SublimeÆÆ½â - http://bbs.pediy.com/showthread.php?t=182774
+
+* 2.SublimeÖĞÎÄÂÒÂë
+    * a.´ò¿ªANSI±àÂëÖĞÎÄÎÄµµÂÒÂë
+        ANSI(Windows-1252)ÏÔÊ¾ÖĞÎÄÂÒÂë - Ê¹ÓÃPackage Control£ºInstall Packet°²×°ConvertToUTF8²å¼ş£¬¼´¿É½â¾ö
+    * b.´ò¿ªµÄÎÄ¼şµÄÎÄ¼şÃûÖĞÎÄÂÒÂë
+    * c.ruby³ÌĞòÊä³öÖĞµÄÖĞÎÄÂÒÂë
+        ÓÃwinrar´ò¿ª¡°°²×°Ä¿Â¼\\Packages"Ä¿Â¼ÖĞRuby.sublime-package
+        ĞŞ¸ÄÆäÖĞRuby.sublime-build£¬Ôö¼Ó"encoding": "GBK"£¨windowsÃüÁîĞĞ·µ»ØµÄ×Ö·û±àÂë£©
+        ÉÏÃæµÄ¸Ä·¨£¬»áµ¼ÖÂUTF-8ÎÄ±¾ÎŞ·¨Õı³£Êä³ö£¬×îºÃÊÇÈÔ¸Ä»Øutf-8(Ä¬ÈÏ)£¬²¢ÇÒ½«ÆäËû×Ö·û×ªÂë³Éutf-8
+
+* 3.±àÒëÖ´ĞĞrubyÊ±£¬gets()ÎŞ·¨½»»¥
+* 4.sublimeÄ¬ÈÏ²»Ö§³ÖiniÎÄ¼ş¸ßÁÁ https://github.com/clintberry/sublime-text-2-ini
+* 5.±àÒëPythonÎŞ·¨Êä³öÖĞÎÄ£¬Í¬2-cÖĞ·½·¨£¬ĞŞ¸ÄPython.sublime-buildÔö¼Ó "encoding": "cp936"ºó½â¾ö
+* 6.°²×°Nodeµ½/usr/local/binºó£¬ÎŞ·¨±àÒë£¬´íÎóÊä³öÊÇpathÖĞÃ»ÓĞ/usr/local/bin
+
+>   ÎÊÌâÒÑ½â¾ö£º
+    ·½·¨ÊÇ²»ÓÃSublimeµÄPackage Contol°²×°£¬¶øÖ±½Ó°²×°githubÉÏµÄÎÄ¼ş£¬²¢ĞŞ¸ÄNodejs.sublime-settingÎÄ¼ş½â¾ö¡£
+
+>   ÎÊÌâÈÔÎ´½â¾ö£¬³¢ÊÔÁËÒÔÏÂÍ¾¾¶
+    * a.Ôö¼Ó/etc/launchd.confÎÄ¼ş£¬ÄÚÈİÎª`setenv PATH /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin`Î´½â¾ö
+    * b.Ôö¼Ó~/.bash_profileÎÄ¼ş£¬ÄÚÈİÎª
+        `
+        export PATH=$PATH:/usr/local/bin
+        launchctl setenv PATH $PATH
+        `
+        Î´½â¾ö
+    * c.ĞŞ¸ÄSublimeµÄPreferenceµÄNodeJSÓÃ»§ÉèÖÃ£¬½«node_commandÉèÖÃÎª¾ø¶ÔÂ·¾¶£¬Î´½â¾ö
