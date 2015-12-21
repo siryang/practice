@@ -1,6 +1,7 @@
 
-##系统
+## 系统
 * history 100: 显示最后100条指令
+* 2秒一次执行100次 for i in `seq 100`; do adb devices & sleep 2; done
 
 * rpm
 ** 1.列出rmp包中所有文件 `rpm -qlp httpd-2.2.3-31.el5_4.2.x86_64.rpm`
@@ -10,8 +11,13 @@
 
 * 资源管理
 
+** 列出树状目录
+`find ./ -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'`
+
 ** 查看目录大小
 `du -h --max-depth=1 .` -h: human readable.
+
+** ls -t : sort by modified time.
 
 * 后台运行
 

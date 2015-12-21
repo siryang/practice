@@ -1,4 +1,4 @@
-title: GCC
+title: GDB
 categories:
 - cpp
 - program
@@ -16,5 +16,14 @@ gdb --args my_app.out
 core {core.dump.file}
 ```
 
+b <file:line>
+b <line>
+b <function>
+b main
 
+É¾³ýbreakpoint
+delete(d) %number
 
+condition <break-number> <condition>
+
+directory : set source search directory.

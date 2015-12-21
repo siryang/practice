@@ -69,3 +69,4 @@ Ctl=Ctrl
 ## MAC-Finder显示隐藏文件夹
 `defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder`
 
+🆎🔑 🍻 ♏⭕🍤i 🙆🚘

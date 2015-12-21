@@ -11,7 +11,7 @@ tags: C
 	* 单精度格式（32位）：符号位（S）1位；阶码（Ｅ）8位，阶码的偏移量为127（7FH）；尾数（M）23位，用小数表示，小数点放在尾数域的最前面；
 	* 双精度格式（64位）：符号位（S）1位；阶码（Ｅ）11位，阶码的偏移量为1023（3FFH）；尾数（M）52位，用小数表示，小数点放在尾数域的最前面。
 
-	X = (-1)s×(1.M)×2^E-127       e = E-127  
+	X = (-1)s×(1.M)×2^E-127       e = E-127
 
 ``` c
 	for (int i = 0; i < 0x7FFFFF; i++)
@@ -21,7 +21,7 @@ tags: C
 	}
 
 	void breakFloat(float f, int* s, int* e, int* m)
-	{	
+	{
 		int temp = *(int*)(&f);
 		*s = temp >> 31;
 		*e = ((temp >> 23) & 0xFF) - 127;
@@ -38,12 +38,17 @@ tags: C
 
 ``` c
     const char* p = a + 3; // good
-00291073  mov         eax,dword ptr [a]  
-00291076  add         eax,3  
-00291079  mov         dword ptr [p],eax  
+00291073  mov         eax,dword ptr [a]
+00291076  add         eax,3
+00291079  mov         dword ptr [p],eax
     const char* q = &a[3]; // bad
-0029107C  mov         ecx,1  
-00291081  imul        edx,ecx,3  
-00291084  add         edx,dword ptr [a]  
-00291087  mov         dword ptr [q],edx  
+0029107C  mov         ecx,1
+00291081  imul        edx,ecx,3
+00291084  add         edx,dword ptr [a]
+00291087  mov         dword ptr [q],edx
 ```
+
+### 语法
+enum class/struct EnumType: uint32 {};
+
+
