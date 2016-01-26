@@ -1,4 +1,4 @@
 # Summary
 
-* [Brief](hexo/source/_posts/hello-word.md)
+* [Brief](hexo/source/_posts/hello-world.md)
 
