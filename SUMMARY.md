@@ -1,5 +1,4 @@
 # Summary
 
-* [Math](hexo/source/_posts/math)
-* 
+* [Brief](hexo/source/_posts/hello-word.md)
 
