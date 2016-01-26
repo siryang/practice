@@ -1,4 +1,4 @@
 # Summary
 
-* [Math](hexo/source/_post/math/dot_product.md)
+* [Math](hexo/source/_posts/math/dot_product.md)
 
