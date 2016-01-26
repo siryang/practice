@@ -1,4 +1,4 @@
-﻿# Anti-Grain Geometry
+# Anti-Grain Geometry
 
 ## 窗体
 
