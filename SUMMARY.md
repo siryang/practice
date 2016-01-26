@@ -10,7 +10,7 @@
     * [GDB](hexo/source/_posts/tools/gdb.md)
 * Libraries
     * [AGG](hexo/source/_posts/libraries/agg.md)
-    * [AGG](hexo/source/_posts/libraries/cocos2d.md)
+    * [Cocos2D](hexo/source/_posts/libraries/cocos2d.md)
     * [Multi Thread](hexo/source/_posts/libraries/multi-thread.md.md)
     * OpenGL
         * [GL Term](hexo/source/_posts/libraries/openg_term.md)
