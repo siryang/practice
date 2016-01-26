@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Math](hexo/source/_posts/math/dot_product.md)
 * Tools
-   * gdb
+   * [gdb](hexo/source/_posts/tools/gdb.md)
 
