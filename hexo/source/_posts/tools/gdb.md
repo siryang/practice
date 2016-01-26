@@ -1,10 +1,6 @@
-title: GDB
-categories:
-- cpp
-- program
----
+# GDB
 
-``` gdb´ø²ÎÊýµ÷ÊÔ
+``` gdbÂ´Ã¸Â²ÃŽÃŠÃ½ÂµÃ·ÃŠÃ”
 gdb --args a.out arg1 arg2
 ```
 
@@ -16,12 +12,13 @@ gdb --args my_app.out
 core {core.dump.file}
 ```
 
-b <file:line>
-b <line>
-b <function>
-b main
+    b <file:line>
+    b <line>
+    b <function>
+    b main
 
-É¾³ýbreakpoint
+
+Ã‰Â¾Â³Ã½breakpoint
 delete(d) %number
 
 condition <break-number> <condition>
