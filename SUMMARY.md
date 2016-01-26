@@ -2,4 +2,5 @@
 
 * [Math](hexo/source/_posts/math/dot_product.md)
 * Tools
+   * gdb
 
