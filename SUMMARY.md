@@ -1,8 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [Funny](hexo/source/_posts/funny/funny.md)
-   * [Intelligent Hardware](hexo/source/_posts/funny/intelligent_hardware.md)
+* Trival
+    * [Annual Summary 2015](hexo/source/_posts/trival/annual_summary_2015.md)
+* Funny
+    * [Intelligent Hardware](hexo/source/_posts/funny/intelligent_hardware.md)
 * Math
    * [Dot Product](hexo/source/_posts/math/dot_product.md)
    * [Convolution](hexo/source/_posts/math/convolution.md)
