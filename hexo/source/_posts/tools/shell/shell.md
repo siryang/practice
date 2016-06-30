@@ -40,6 +40,11 @@
 	User yangdi.yd
 	Port 22
 
++ 通过SSH挂载目录/文件系统
+
+sshfs name@server:/path/to/folder /path/to/mount/point
+从http://fuse.sourceforge.net/sshfs.html下载sshfs，它允许你跨网络安全挂载一个目录。
+
 ---
 
 
@@ -71,51 +76,10 @@ service nginx start
 * grep
 ** egrep == grep -e
 ** 查找source目录下的所有c/cpp文件，find ./source | grep -e "\.cpp$|\.c$"
+** grep -F 忽略特殊字符，如`.`不会再被当做`任意字符`。
 
 * find
 ** find -name "*.c"
-
-
-## 脚本
-
-### 执行参数
-
-	$0 param 1
-	$1 param 2
-	$2 param 3
-	$3 param 4
-	$# param number
-	$@ all params
-
-```shell
-
-while getopts ":dh" opt;
-do
-	case $opt in
-		h)
-			echo "-h"
-			;;
-		d)	echo "-d";;
-		?)  echo "invalid";;
-	esac
-done
-
-```
-### 判断
-if [ "$var" == "" ]; then
-	echot "empty string"
-fi
-
-### 函数
-
-```shell
-function system_info
-{
-    echo "<h2>System release info</h2>"
-    echo "<p>Function not yet implemented</p>"
-
-}   # end of system_info
-```
 
 
 ## rsync
